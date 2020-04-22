@@ -1,6 +1,6 @@
 <template>
   <header>
-        <div class="container">
+        <div class="container" >
 
           <a href="#" class="logo"><img src="@/assets/images/logo.png" alt="Payoo-logo" width="174" height="51"></a>
           <div class="header-right">

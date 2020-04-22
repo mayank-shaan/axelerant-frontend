@@ -9,10 +9,19 @@
         margin-bottom: 0;
       }
     }
+
+    .social-links {
+        p {
+          display: flex;
+          margin-bottom: 0px;
+        }
+    }
+    
   }
 }
 
 @media (min-width: 768px) {
+  
   h2 {
     font-size: $base-font * 3.2;
   }
@@ -101,20 +110,20 @@
   // }
 
   /*-- contact-form --*/
-  .contact-sec {
-    form {
-      margin: 0 100px;
-    }
-  }
-  .fields-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .input-fields {
-      width: 32%;
-      margin-bottom: 0;
-    }
-  }
+  // .contact-sec {
+  //   form {
+  //     margin: 0 100px;
+  //   }
+  // }
+  // .fields-wrapper {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   .input-fields {
+  //     width: 32%;
+  //     margin-bottom: 0;
+  //   }
+  // }
   /*-- contact-form end --*/
 }
 
