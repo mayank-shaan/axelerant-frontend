@@ -26,7 +26,7 @@ header {
   }
 }
 
-.logo {
+.company-logo {
   width: 110px;
   display: inline-block;
 
@@ -175,14 +175,8 @@ header {
     }
 
     button:hover {
-      color: $color-red;
-
       background: transparent;
-      border: 2px solid $color-red;
-
-      .icon-btn {
-        background-position-y: -17px;
-      }
+      border: 2px solid $color-white;
     }
   }
 }
@@ -228,27 +222,17 @@ header {
     font-weight: 300;
   }
 
-  .banner-contents {
+  .services {
     width: 80%;
     margin: 0 auto;
-    max-width: 590px;
+    max-width: 50vw;
 
     div {
       @extend .common-banner;
     }
 
     div:hover {
-      border: 1px solid #19608e;
-    }
-
-    div:hover {
-      i {
-        background-position-y: -83px;
-      }
-
-      span {
-        color: $color-red;
-      }
+      border: 1px solid #fff;
     }
 
     i {
@@ -470,7 +454,7 @@ footer {
     margin-bottom: 10px;
   }
 
-  .social-links {
+  .footer-links {
     p {
       display: block;
       margin-bottom: 0px;
@@ -501,21 +485,6 @@ footer {
         background-position: -89px 3px;
       }
     }
-
-    a:hover {
-      i {
-        background-position-y: -19px;
-      }
-
-      .icon-twitter {
-        background-position-y: -18px;
-      }
-
-      .icon-mail {
-        background-position-y: -14px;
-      }
-    }
-
 
   }
 

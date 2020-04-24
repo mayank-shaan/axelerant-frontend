@@ -10,7 +10,7 @@
       }
     }
 
-    .social-links {
+    .footer-links {
         p {
           display: flex;
           margin-bottom: 0px;
@@ -30,8 +30,8 @@
     margin-bottom: 0;
   }
 
-  .logo {
-    width: 128px;
+  .company-logo {
+    width: 150px;
   }
   header {
     position: static;
@@ -78,7 +78,7 @@
       font-size: 37px;
       word-spacing: 7px;
     }
-    .banner-contents {
+    .services {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -144,27 +144,12 @@
     height: 65px;
   }
   .banner-wrapper {
-    .banner-contents {
+    .services {
       .icon-second {
         background-position: -101px -33px;
       }
       .icon-third {
         background-position: -175px -33px;
-      }
-    }
-    .banner-contents {
-      div:hover {
-        i {
-          background-position-y: -109px;
-        }
-      }
-    }
-  }
-
-  .banner-contents {
-    div:hover {
-      i {
-        background-position-y: -83px;
       }
     }
   }
@@ -206,7 +191,6 @@
 }
 
 @media (min-width: 1200px) {
-  /*-- contact-form start --*/
   .contact-sec {
     p {
       font-size: 2rem;
@@ -219,8 +203,7 @@
     height: 70px;
     padding: 18px;
   }
-  .logo {
+  .company-logo {
     margin-top: 5px;
   }
-  /*-- conatct form end --*/
 }

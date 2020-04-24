@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-wrapper">
+  <section class="contact-wrapper" id="contactUs">
       <div class="container">
         <div class="contact-sec">
           <h2>Conviced to work with us?</h2>

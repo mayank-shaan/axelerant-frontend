@@ -2,7 +2,7 @@
   <section class="banner-wrapper">
     <div class="container">
       <h1>Integer bibendum sit amet arcu vel egestas.</h1>
-      <div class="banner-contents">
+      <div class="services">
 
         <div><i class="icon-first">Service name</i><span>Service Name</span></div>
         <div><i class="icon-second">Service name</i><span>Service Name</span></div>

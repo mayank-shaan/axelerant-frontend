@@ -48,7 +48,7 @@ export default {
 }
 @media (min-width: 991px) {
   .world-map-container {
-    padding: 90px 0 70px;
+    padding: 8vh 3vw;
     .container {
       display: flex;
       justify-content: space-between;
@@ -73,7 +73,7 @@ export default {
 
 @media (min-width: 768px) {
 .world-map-container {
-    padding: 60px 0;
+    padding: 8vh 3vw;
     .container {
       display: flex;
       justify-content: space-between;
